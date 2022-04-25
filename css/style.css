@@ -1,0 +1,321 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* header start */
+
+header{
+
+	background-color: #121b2a;
+}
+.wrraper{
+width: 80%;
+margin: 0 auto;
+overflow: hidden;
+padding: 18px 0;
+}
+.manu-img{
+	width: 10%;
+	float: left;
+
+}
+.manu-img img{
+	width: 100%;
+}
+.manu-text{
+	float: right;
+  width: 80%;
+  margin-top: 25px;
+}
+.manu-text ul{
+ list-style: none;
+ float: right;
+
+}
+.manu-text ul li{
+float: left;
+
+}
+.manu-text ul li a{
+display: block;
+padding: 0 25px;
+text-decoration: none;
+display: block;
+color: white;
+transition: .3s;
+}
+.manu-text ul li:last-child a{
+	padding-right: 0;
+}
+.manu-text ul li a:hover{
+	color: #0078BD;
+}
+/* header end */
+
+/* banna start */
+ .bannar{
+ 	background-image: url('../img/bann.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center center;
+
+
+ }
+ .bannar-content{
+ 	  margin-top: 200px;
+    margin-bottom: 80px;
+    width: 40%;
+ }
+ .bannar-content p:first-child{
+ 	 color: white;
+ 	 font-size: 30px;
+ 	 font-family: sans-serif;
+ }
+ .bannar-content h1{
+  color: #1fe356;
+  font-size: 38px;
+  font-family: sans-serif;
+ }
+ .bannar-content p:nth-last-child(2){
+    font-size: 17px;
+    line-height: 1.4;
+    color: white;
+ }
+ .bannar button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #5A5A5A;
+    margin-top: 20px;
+    transition: .2s;
+}
+ .bannar-content button:hover{
+ 	color: blue;
+ }
+
+ .bannar button span {
+    background: #1982d2;
+    padding: 1px 7px;
+    border-radius: 50%;
+    color: wheat;
+    margin-left: 6px;
+}
+ 
+/* banna end */
+
+/* service start */
+   .service{
+   	background-color: #121B2C;
+   	padding: 50px 0;
+   }
+   .single{
+
+   	width: 29%;
+   	padding: 10px 20px;
+   	float: left;
+   	margin-left: 5px;
+    border-right: 1px solid white;
+   }
+   .single:last-child {
+
+     border-right: 0;
+   }
+
+   .title{
+   	overflow: hidden;
+   	margin-bottom: 15px;
+   }
+
+   .icon{ 
+   	width: 25%;
+   	float: left;
+
+    }
+
+   .icon img{
+   	width: 100%;
+   	width: 43px;
+   }
+
+   .icon-text{
+   	width: 70%;
+    float: left;
+    margin-top: 6px;
+    margin-left: -30px;
+   }
+   .icon-text h1{
+   	color: white;
+   	font-size: 20px;
+   	font-weight: normal;
+   	font-family: sans-serif;
+   	text-transform: capitalize;
+   }
+   .icon-text h2{
+   	color: #0078BF;
+   	text-transform: capitalize;
+   	font-family: sans-serif;
+   	font-size: 23px;
+   	font-weight: normal;
+   }
+   .content {
+   	    margin-top: 14px;
+   }
+   .content p{
+   	color: white;
+   	font-family: sans-serif;
+   	line-height: 1.4;
+   	font-size: 15px;
+   }
+/* service end */
+
+/* contract start */
+   .contract{
+      background-color: #040811;
+      padding: 50px 0;
+      color: white;
+   }
+
+   .container{
+      width: 29%;
+      float: left;
+      padding: 50px 20px;
+      margin-left: 10px;
+      font-size: 14px;
+
+   }
+   .container-title{
+          padding-bottom: 4px;
+   }
+   .container-title h1{
+      padding: 10px 0;
+   }
+   .container-title h1 span{
+      color: #0175ba;
+   }
+   .container-title p{
+      padding-bottom: 5px;
+      font-size: 14px;
+   }
+   .container2{
+      width: 29%;
+      float: left;
+      padding: 50px 20px 10px;
+      margin-left: 10px;
+   }
+
+   .container-text{
+    background-color: #0c1019;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 16px;
+    font-size: 14px;
+   }
+   .container-text h1{
+      margin-bottom: 13px;
+   }
+   .address{
+    margin-top: 21px;
+    padding-left: 14px;
+    font-size: 14px;
+   }
+   .container3{
+      width: 29%;
+      float: left;
+      padding: 23px 20px 10px;
+      margin-left: 10px;
+   }
+   .phone{
+      width: 10%;
+      float: left;
+   }
+   .phone img{
+
+   }
+   .phone-text{
+      width: 70%;
+      float: right;
+      margin-top: 11px;
+   }
+   .img-text{
+          margin-left: 40px;
+   }
+   .img-text h2{}
+   .img-text h1{
+   color: #0175ba;
+   }
+   .apps-img{
+    margin-left: 40px;
+    margin-top: 20px;
+   }
+   .apps-img img{
+   }
+
+
+/* contract end */
+ 
+ /* footer start */
+ .footer{
+   background-color: #121b2c;
+   padding: 40px 0;
+ }
+ .footer-manu{
+   width: 45%;
+   float: left;
+ }
+ .manu-text2{}
+ .manu-text2 ul{
+ list-style: none;
+ float: right;
+
+}
+.manu-text2 ul li{
+float: left;
+
+}
+.manu-text2 ul li a{
+    display: block;
+    padding: 0px 12px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    transition: .3s;
+    font-size: 15px;
+}
+.manu-text2 ul li:last-child a{
+   padding-right: 0;
+}
+.manu-text2 ul li a:hover{
+   color: #0078BD;
+}
+ .manu-text3{}
+ .manu-text3 p{
+      color: #d3d3d8;
+    padding: 0px 50px;
+    font-size: 15px;
+    margin-top: 40px;
+}
+ .footer-img{
+   width:45% ;
+   float: right;
+   overflow: hidden;
+ }
+ .footer-img1{
+   width: 48%;
+   float: left;
+ }
+ .footer-img1 img{
+   width: 180px;
+   padding-left: 92px;
+ }
+ .footer-img2{
+   width: 48%;
+   float: right;
+ }
+ .footer-img2 img{
+   width: 180px;
+ }
+
+ /* footer end */
